@@ -71,7 +71,6 @@ build-nginx() {
             --prefix=$nginx_install_dir \
             --with-pcre=pcre-$NGINX_PCRE_VERSION \
             --add-module=$PWD/headers-more-nginx-module-$NGINX_HEADERS_MORE_VERSION \
-            --add-module=$PWD/nginx_tcp_proxy_module-$NGINX_TCP_PROXY_VERSION \
             --with-http_addition_module \
             --with-http_dav_module \
             --with-http_gzip_static_module \
